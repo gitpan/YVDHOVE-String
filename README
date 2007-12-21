@@ -1,4 +1,4 @@
-YVDHOVE::String version 0.01
+YVDHOVE::String version 1.03
 ============================
 
 This module provides some useful "String" functions currently
@@ -24,7 +24,5 @@ COPYRIGHT AND LICENCE
 Copyright (C) 2007 by Yves Van den Hove <yvdhove@users.sourceforge.net>
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.8.7 or,
+it under the same terms as Perl itself, either Perl version 5.8.x or,
 at your option, any later version of Perl 5 you may have available.
-
-

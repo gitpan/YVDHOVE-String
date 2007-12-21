@@ -1,15 +1,19 @@
 # Before `make install' is performed this script should be runnable with
-# `make test'. After `make install' it should work as `perl String.t'
+# `make test'. After `make install' it should work as `perl YVDHOVE-String.t'
 
 #########################
 
-# change 'tests => 1' to 'tests => last_test_to_print';
-
-use Test::More tests => 1;
-BEGIN { use_ok('YVDHOVE::String') };
+use Test::More tests => 4;
+BEGIN { use_ok('YVDHOVE::String', qw(:all)) };
 
 #########################
 
-# Insert your test code below, the Test::More module is use()ed here so read
-# its man page ( perldoc Test::More ) for help writing this test script.
+my $string = "  \t  Hello world!   ";
 
+my $result01 = ltrim($string);
+my $result02 = rtrim($string);
+my $result03 = trim($string);
+
+is($result01, "Hello world!   ", 'ltrim()');
+is($result02, "  \t  Hello world!", 'rtrim()');
+is($result03, "Hello world!", 'trim()');

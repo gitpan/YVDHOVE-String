@@ -9,4 +9,5 @@ WriteMakefile(
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/YVDHOVE/String.pm', # retrieve abstract from module
        AUTHOR         => 'Yves Van den Hove <yvdhove@users.sourceforge.net>') : ()),
+	dist              => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },       
 );
