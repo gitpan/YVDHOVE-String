@@ -16,7 +16,7 @@ our %EXPORT_TAGS = ( 'all' => [ qw( trim
 our @EXPORT_OK   = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT      = qw();
 
-our $VERSION     = '1.03';
+our $VERSION     = '1.04';
 
 # ---------------------------------------------------------------------------------
 
@@ -93,8 +93,7 @@ trim function to remove trailing whitespace
 
 =head1 SEE ALSO
 
-YVDHOVE::List
-YVDHOVE::String
+See F<http://search.cpan.org/search?query=YVDHOVE&mode=all>
 
 =head1 AUTHORS
 
