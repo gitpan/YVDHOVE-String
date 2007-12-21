@@ -16,7 +16,7 @@ our %EXPORT_TAGS = ( 'all' => [ qw( trim
 our @EXPORT_OK   = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT      = qw();
 
-our $VERSION     = '1.04';
+our $VERSION     = '1.05';
 
 # ---------------------------------------------------------------------------------
 
@@ -50,7 +50,7 @@ sub rtrim($) {
 __END__
 =head1 NAME
 
-YVDHOVE::String - Perl module that provides String functions used by the YVDHOVE framework
+YVDHOVE::String - This Perl module provides "String" functions for the YVDHOVE framework
 
 =head1 SYNOPSIS
 
@@ -64,10 +64,7 @@ YVDHOVE::String - Perl module that provides String functions used by the YVDHOVE
 
 =head1 DESCRIPTION
 
-Perl doesn't have a built-in trim function. 
-Use the subroutines below to trim whitespace (spaces and tabs) from the beginning and end of a string in Perl. 
-These functions are directly based on the Perl FAQ entry "How do I strip blank spaces from the beginning/end of a string?" 
-The ltrim and rtrim functions can trim leading or trailing whitespace. 
+This Perl module provides "String" functions for the YVDHOVE framework 
 
 =head1 EXPORT
 

@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:                YVDHOVE-String
-version:             1.04
-abstract:            Perl module that provides String functions used by the YVDHOVE framework
+version:             1.05
+abstract:            This Perl module provides "String" functions for the YVDHOVE framework
 license:             ~
 generated_by:        ExtUtils::MakeMaker version 6.32
 distribution_type:   module

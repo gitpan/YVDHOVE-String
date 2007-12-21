@@ -1,8 +1,7 @@
 YVDHOVE::String version 1.03
 ============================
 
-This module provides some useful "String" functions currently
-not available in the default Perl 5.8.x distribution.
+This Perl module provides "String" functions for the YVDHOVE framework
 
 INSTALLATION
 
